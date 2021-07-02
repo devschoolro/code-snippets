@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #000428, #004e92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+textarea {
+  padding: 15px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.hint {
+  color: #fff;
+  font-weight: 300;
+  text-align: right;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
